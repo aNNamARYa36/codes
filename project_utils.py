@@ -146,7 +146,7 @@ class SpeechToTextModel(nn.Module):
         x = self.cnn_block2(x)
         x = self.cnn_block3(x)
         x = self.cnn_block4(x)
-        x = self.cnn_block5(x)   # După CNN: x are forma (batch, 128, T_reduced)
+        x = self.cnn_block5(x)   #(batch, 128, T_reduced)
          
         x = x.transpose(1, 2)    #(batch, T_reduced, 128)
         
