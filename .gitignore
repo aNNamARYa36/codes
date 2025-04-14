@@ -1,0 +1,6 @@
+/audio_trans_train360.py
+/features_train360.py
+/incercare_dataset_train100.py
+/incercare_propriu_model.py
+/train_whisper_small.py
+/__pycache__
